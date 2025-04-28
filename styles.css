@@ -42,7 +42,10 @@ body {
     display: block;
   }
   
-  
+  /*This ensures thay there is clor inheritance in the top nav bar*/
+  li > a {
+    color: inherit;
+  }
   
   h1,
   h2 {
